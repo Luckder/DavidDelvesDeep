@@ -1,28 +1,65 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 400px;
+  min-height: 386px;
 }
 
 .u-section-1 .u-text-1 {
   font-family: Poppins;
-  margin: 30px auto 0;
+  font-size: 4.375rem;
+  margin: 47px auto 0;
 }
 
 .u-section-1 .u-text-2 {
   font-family: Poppins;
   font-size: 6.25rem;
   text-shadow: -2px -2px 8px rgba(128,128,128,1);
-  margin: 78px 105px 60px;
+  margin: 62px auto 60px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-text-2 {
+  .u-section-1 .u-sheet-1 {
+    min-height: 357px;
+  }
+
+  .u-section-1 .u-text-1 {
     font-size: 3.75rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 5.625rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 281px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.125rem;
+    margin-top: 48px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 4.6875rem;
+    margin: 37px 11px 58px;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 206px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2rem;
+    width: auto;
+    margin-top: 40px;
+  }
+
   .u-section-1 .u-text-2 {
     font-size: 3rem;
+    margin: 39px 47px 40px;
   }
 }
 
@@ -37,6 +74,17 @@
 .u-section-2 .u-text-1 {
   font-family: Poppins;
   margin: 60px 0;
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 205px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 23px;
+    margin-bottom: 22px;
+  }
 }.u-section-3 .u-sheet-1 {
   min-height: 321px;
 }
@@ -44,6 +92,17 @@
 .u-section-3 .u-text-1 {
   font-family: Poppins;
   margin: 60px 0;
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 217px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-top: 29px;
+    margin-bottom: 28px;
+  }
 }.u-section-4 .u-sheet-1 {
   min-height: 321px;
 }
@@ -51,6 +110,18 @@
 .u-section-4 .u-text-1 {
   font-family: Poppins;
   margin: 60px 0;
+}
+
+@media (max-width: 767px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 287px;
+  }
+
+  .u-section-4 .u-text-1 {
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 19px;
+  }
 }.u-section-5 .u-sheet-1 {
   min-height: 321px;
 }
@@ -58,4 +129,15 @@
 .u-section-5 .u-text-1 {
   font-family: Poppins;
   margin: 60px 0;
+}
+
+@media (max-width: 767px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 181px;
+  }
+
+  .u-section-5 .u-text-1 {
+    margin-top: 36px;
+    margin-bottom: 26px;
+  }
 }

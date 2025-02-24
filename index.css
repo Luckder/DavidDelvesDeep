@@ -1,143 +1,354 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('images/tenor_circle_glowing.gif');
+  background-position: 50% 50%, 50% 6.37%;
+  background-size: cover, cover;
+}
+
 .u-section-1 .u-sheet-1 {
-  min-height: 386px;
+  min-height: 606px;
 }
 
 .u-section-1 .u-text-1 {
   font-family: Poppins;
-  font-size: 4.375rem;
-  margin: 47px auto 0;
+  font-weight: 500;
+  font-size: 3rem;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: 190px auto 0;
 }
 
 .u-section-1 .u-text-2 {
+  font-size: 6rem;
   font-family: Poppins;
-  font-size: 6.25rem;
-  text-shadow: -2px -2px 8px rgba(128,128,128,1);
-  margin: 62px auto 60px;
+  font-weight: 700;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  animation-duration: 1000ms;
+  margin: 73px auto 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 357px;
+    min-height: 496px;
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 3.75rem;
+    width: auto;
+    margin-top: 202px;
   }
 
   .u-section-1 .u-text-2 {
-    font-size: 5.625rem;
+    font-size: 4.5rem;
     width: auto;
+    margin-top: 24px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 281px;
+    min-height: 460px;
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 3.125rem;
-    margin-top: 48px;
+    margin-top: 120px;
   }
 
   .u-section-1 .u-text-2 {
-    font-size: 4.6875rem;
-    margin: 37px 11px 58px;
+    margin-top: 84px;
+    margin-left: 18px;
+    margin-right: 18px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 206px;
+    min-height: 614px;
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 2rem;
-    width: auto;
-    margin-top: 40px;
+    margin-top: 135px;
   }
 
   .u-section-1 .u-text-2 {
-    font-size: 3rem;
-    margin: 39px 47px 40px;
+    font-size: 3.75rem;
+    margin-top: 56px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 513px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+    margin-top: 146px;
+  }
+
   .u-section-1 .u-text-2 {
+    font-size: 3rem;
+    margin-top: 9px;
+    margin-bottom: 51px;
+  }
+}.u-block-d311-2 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.u-block-d311-3 {
+  position: absolute;
+  left: 0;
+}
+
+.u-block-d311-4 {
+  position: absolute;
+  right: 0;
+}
+
+ .u-section-2-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/unsplash_cross.jpg');
+  background-position: 50% 50%, 50% 0%;
+  background-size: cover, cover;
+}
+
+.u-section-2-1 .u-sheet-1 {
+  min-height: 956px;
+}
+
+.u-section-2-1 .u-text-1 {
+  font-family: Poppins;
+  font-size: 3.75rem;
+  width: 837px;
+  margin: 60px auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2-1 .u-sheet-1 {
+    min-height: 660px;
+  }
+
+  .u-section-2-1 .u-text-1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2-1 .u-sheet-1 {
+    min-height: 506px;
+  }
+
+  .u-section-2-1 .u-text-1 {
+    width: 720px;
     font-size: 2.25rem;
   }
-}.u-section-2 .u-sheet-1 {
-  min-height: 321px;
-}
-
-.u-section-2 .u-text-1 {
-  font-family: Poppins;
-  margin: 60px 0;
 }
 
 @media (max-width: 767px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 205px;
+  .u-section-2-1 .u-sheet-1 {
+    min-height: 380px;
   }
 
-  .u-section-2 .u-text-1 {
-    margin-top: 23px;
-    margin-bottom: 22px;
+  .u-section-2-1 .u-text-1 {
+    width: 540px;
+    font-size: 1.875rem;
   }
-}.u-section-3 .u-sheet-1 {
-  min-height: 321px;
 }
 
-.u-section-3 .u-text-1 {
+@media (max-width: 575px) {
+  .u-section-2-1 .u-sheet-1 {
+    min-height: 239px;
+  }
+
+  .u-section-2-1 .u-text-1 {
+    width: 340px;
+    font-size: 1.25rem;
+  }
+}
+
+ .u-section-2-2 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/unsplash_prayer.jpg');
+  background-position: 50% 50%, 50% 100%;
+  background-size: 280%, cover;
+}
+
+.u-section-2-2 .u-sheet-1 {
+  min-height: 956px;
+}
+
+.u-section-2-2 .u-text-1 {
   font-family: Poppins;
-  margin: 60px 0;
+  font-size: 3.75rem;
+  width: 837px;
+  margin: 60px auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2-2 .u-sheet-1 {
+    min-height: 660px;
+  }
+
+  .u-section-2-2 .u-text-1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2-2 .u-sheet-1 {
+    min-height: 506px;
+  }
+
+  .u-section-2-2 .u-text-1 {
+    width: 720px;
+    font-size: 2.25rem;
+  }
 }
 
 @media (max-width: 767px) {
-  .u-section-3 .u-sheet-1 {
-    min-height: 217px;
+  .u-section-2-2 .u-sheet-1 {
+    min-height: 380px;
   }
 
-  .u-section-3 .u-text-1 {
-    margin-top: 29px;
-    margin-bottom: 28px;
+  .u-section-2-2 .u-text-1 {
+    width: 540px;
+    font-size: 1.875rem;
   }
-}.u-section-4 .u-sheet-1 {
-  min-height: 321px;
 }
 
-.u-section-4 .u-text-1 {
+@media (max-width: 575px) {
+  .u-section-2-2 .u-sheet-1 {
+    min-height: 239px;
+  }
+
+  .u-section-2-2 .u-text-1 {
+    width: 340px;
+    font-size: 1.25rem;
+  }
+}
+
+ .u-section-2-3 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/unsplash_theology.jpg');
+  background-position: 50% 50%, 50% 88.48%;
+  background-size: cover;
+}
+
+.u-section-2-3 .u-sheet-1 {
+  min-height: 956px;
+}
+
+.u-section-2-3 .u-text-1 {
   font-family: Poppins;
-  margin: 60px 0;
+  font-size: 3.75rem;
+  width: 837px;
+  margin: 60px auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2-3 .u-sheet-1 {
+    min-height: 660px;
+  }
+
+  .u-section-2-3 .u-text-1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2-3 .u-sheet-1 {
+    min-height: 506px;
+  }
+
+  .u-section-2-3 .u-text-1 {
+    width: 720px;
+    font-size: 2.25rem;
+  }
 }
 
 @media (max-width: 767px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 287px;
+  .u-section-2-3 .u-sheet-1 {
+    min-height: 380px;
   }
 
-  .u-section-4 .u-text-1 {
-    width: auto;
-    margin-top: 30px;
-    margin-bottom: 19px;
+  .u-section-2-3 .u-text-1 {
+    width: 540px;
+    font-size: 1.875rem;
   }
-}.u-section-5 .u-sheet-1 {
-  min-height: 321px;
 }
 
-.u-section-5 .u-text-1 {
+@media (max-width: 575px) {
+  .u-section-2-3 .u-sheet-1 {
+    min-height: 239px;
+  }
+
+  .u-section-2-3 .u-text-1 {
+    width: 340px;
+    font-size: 1.25rem;
+  }
+}
+
+ .u-section-2-4 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/unsplash_cathedral.jpg');
+  background-position: 50% 50%, 50% 92.02%;
+  background-size: cover;
+}
+
+.u-section-2-4 .u-sheet-1 {
+  min-height: 956px;
+}
+
+.u-section-2-4 .u-text-1 {
+  width: 837px;
   font-family: Poppins;
-  margin: 60px 0;
+  font-size: 3.75rem;
+  margin: 60px auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2-4 .u-sheet-1 {
+    min-height: 660px;
+  }
+
+  .u-section-2-4 .u-text-1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2-4 .u-sheet-1 {
+    min-height: 506px;
+  }
+
+  .u-section-2-4 .u-text-1 {
+    width: 720px;
+    font-size: 2.25rem;
+  }
 }
 
 @media (max-width: 767px) {
-  .u-section-5 .u-sheet-1 {
-    min-height: 181px;
+  .u-section-2-4 .u-sheet-1 {
+    min-height: 380px;
   }
 
-  .u-section-5 .u-text-1 {
-    margin-top: 36px;
-    margin-bottom: 26px;
+  .u-section-2-4 .u-text-1 {
+    width: 540px;
+    font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2-4 .u-sheet-1 {
+    min-height: 239px;
+  }
+
+  .u-section-2-4 .u-text-1 {
+    width: 340px;
+    font-size: 1.25rem;
   }
 }

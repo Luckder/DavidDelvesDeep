@@ -5,17 +5,17 @@
 .u-section-1 .u-text-1 {
   font-family: Poppins;
   font-weight: 600;
-  margin: 26px auto 0;
+  width: 504px;
+  margin: 14px auto 0;
 }
 
 .u-section-1 .u-text-2 {
   font-family: Poppins;
-  margin: 88px 0 60px;
+  margin: 42px 0 60px;
 }
 
-@media (max-width: 1199px) {
-  .u-section-1 .u-text-2 {
-    font-weight: 400;
-    margin-left: 26px;
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    width: 340px;
   }
 }

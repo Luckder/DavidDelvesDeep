@@ -1,0 +1,27 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Poppins;
+  font-weight: 600;
+  width: 557px;
+  margin: 14px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: Poppins;
+  margin: 42px 0 60px;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    width: 340px;
+  }
+}

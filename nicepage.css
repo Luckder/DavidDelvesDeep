@@ -45739,6 +45739,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 500;
   font-size: 1rem;
   text-transform: uppercase;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-6 {
@@ -45759,7 +45760,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-section-row-1 {
-    min-height: 272px;
+    min-height: 328px;
   }
 
   .u-header .u-image-1 {
@@ -45774,16 +45775,14 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     margin-top: 15px;
     margin-right: auto;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
+    margin-bottom: 0;
   }
 
   .u-header .u-text-2 {
     font-size: 0.75rem;
     font-weight: 300;
-    margin-top: 7px;
+    width: 408px;
+    margin-top: 31px;
     margin-bottom: 0;
   }
 }
@@ -45801,12 +45800,13 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-text-2 {
     margin-top: 134px;
+    width: 408px;
   }
 }
 
 @media (max-width: 767px) {
   .u-header .u-section-row-1 {
-    min-height: 272px;
+    min-height: 332px;
   }
 
   .u-header .u-text-1 {
@@ -45815,22 +45815,17 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-left: calc(((100% - 540px) / 2)  + 53px);
+    margin-left: calc(((100% - 540px) / 2)  + 56px);
   }
 
   .u-header .u-text-2 {
-    margin-top: 133px;
-    margin-bottom: 1px;
+    margin-top: 157px;
   }
 }
 
 @media (max-width: 575px) {
   .u-header .u-section-row-1 {
-    min-height: 268px;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: 1px;
+    min-height: 328px;
   }
 
   .u-header .u-text-1 {
@@ -45843,10 +45838,6 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: calc(((100% - 340px) / 2)  + -24px);
     margin-left: calc(((100% - 340px) / 2)  + 37px);
   }
-
-  .u-header .u-text-2 {
-    margin-bottom: 0;
-  }
 }
 
  .u-footer {
@@ -45854,7 +45845,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 668px;
+  min-height: 812px;
 }
 
 .u-footer .u-text-1 {
@@ -45910,7 +45901,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-text-2 {
   width: 417px;
-  margin: 0 auto 8px;
+  margin: 0 auto 60px;
 }
 
 
